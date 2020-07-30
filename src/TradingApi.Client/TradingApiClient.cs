@@ -30,10 +30,7 @@ namespace TradingApi.Client
                 Credentials = ChannelCredentials.Create(new SslCredentials(), credentials)
             });
 
-
-            Channel = GrpcChannel.ForAddress(grpcUrl);
-
-            PublicApi = new PublicService.PublicServiceClient(Channel);
+PublicApi = new PublicService.PublicServiceClient(Channel);
 
             PrivateApi = new PrivateService.PrivateServiceClient(Channel);
         }
