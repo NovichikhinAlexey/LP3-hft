@@ -20,7 +20,7 @@ namespace SimpleLP
 
             var trader = new MarketManager(api, "BTCUSD");
 
-            trader.ResetMarke(10940, 0.0001m, 15, 15);
+            trader.ResetMarke(10950, 0.0001m, 10, 15);
             await trader.PlaceToMarketAsync();
 
             while (true)
