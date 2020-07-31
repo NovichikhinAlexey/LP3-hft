@@ -30,7 +30,7 @@ namespace TradingApi.Client
                 Credentials = ChannelCredentials.Create(new SslCredentials(), credentials)
             });
 
-PublicApi = new PublicService.PublicServiceClient(Channel);
+            PublicApi = new PublicService.PublicServiceClient(Channel);
 
             PrivateApi = new PrivateService.PrivateServiceClient(Channel);
         }
