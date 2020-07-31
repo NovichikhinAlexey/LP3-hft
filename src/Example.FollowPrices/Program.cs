@@ -67,6 +67,11 @@ namespace Example.FollowPrices
 
             ValidateResult(prices.Error);
             Console.WriteLine($"Count prices: {prices.Payload.Count}.");
+
+            foreach (var price in prices.Payload)
+            {
+                Console.WriteLine($"{price.AssetPairId}: Ask={price.Ask}; Bid={price.Bid}; Time={price.Timestamp}");
+            }
         }
 
         private static void GetPrices(TradingApiClient client)
