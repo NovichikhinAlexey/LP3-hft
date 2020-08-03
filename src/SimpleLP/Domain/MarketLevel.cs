@@ -6,7 +6,7 @@
 
         public decimal PriceCompensate { get; set; }
 
-        public decimal OriginalSize { get; set; }
+        public decimal MinSize { get; set; }
 
         public MarketLevelStatus Status { get; set; }
 

@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example.FollowPrices", "src
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example.FollowOrderBooks", "src\Example.FollowOrderBooks\Example.FollowOrderBooks.csproj", "{F0B9F23D-A4BE-4CC6-B301-2A80627652B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleLP", "src\SimpleLP\SimpleLP.csproj", "{E1CB73A9-FFC8-4EE4-BC34-F5C86F5D69AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleLP", "src\SimpleLP\SimpleLP.csproj", "{E1CB73A9-FFC8-4EE4-BC34-F5C86F5D69AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleLPWithPulse", "src\SimpleLPWithPulse\SimpleLPWithPulse.csproj", "{22DFEE86-3270-4AF6-8405-B311CC5DE225}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{E1CB73A9-FFC8-4EE4-BC34-F5C86F5D69AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1CB73A9-FFC8-4EE4-BC34-F5C86F5D69AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1CB73A9-FFC8-4EE4-BC34-F5C86F5D69AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22DFEE86-3270-4AF6-8405-B311CC5DE225}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22DFEE86-3270-4AF6-8405-B311CC5DE225}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22DFEE86-3270-4AF6-8405-B311CC5DE225}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22DFEE86-3270-4AF6-8405-B311CC5DE225}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

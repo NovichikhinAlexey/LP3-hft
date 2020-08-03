@@ -33,7 +33,7 @@ namespace SimpleLP.Domain
 
                 var level = new MarketLevel()
                 {
-                    OriginalSize = levelSize,
+                    MinSize = levelSize,
                     Price = price,
                     PriceCompensate = price - delta,
                     Side = MarketSide.Short,
@@ -53,7 +53,7 @@ namespace SimpleLP.Domain
 
                 var level = new MarketLevel()
                 {
-                    OriginalSize = levelSize,
+                    MinSize = levelSize,
                     Price = price,
                     PriceCompensate = price + delta,
                     Side = MarketSide.Long,
@@ -115,7 +115,7 @@ namespace SimpleLP.Domain
                     var orderId = await _trader.PlaceOrderAsync(
                         _symbol,
                         price,
-                        level.OriginalSize,
+                        level.MinSize,
                         side);
 
                     if (!string.IsNullOrEmpty(orderId))
